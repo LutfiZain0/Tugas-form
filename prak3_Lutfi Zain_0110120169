@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas Form</title>
+    </head>
+    <body>
+        <form action="daftar.html" autocomplete="on">
+        <table border="1" align="center" bgcolor="white">
+        <h1 align="center">
+        <img src="download.png">Formulir Lamaran Pekerjaan <img src="download.png">
+        </h1>
+        <tr>
+            <td>NAMA</td>
+            <td><input type="text" NAME="nama" size="50" placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+            <td>EMAIL</td>
+            <td><input type="text" NAME="Email" size="50" placeholder="Email"></td>
+            </tr>
+            <tr>
+            <td>TEMPAT TANGGAL LAHIR</td>
+            <td><input type="text" NAME="nama" size="10" placeholder="Tempat">
+            <form action="#">
+            <input type="date" name="Tanggal">
+            </form>
+            
+            </td>
+            </tr>
+            <tr>
+                <td>ALAMAT</td>
+                <td><textarea name="ALAMAT" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>JENIS KELAMIN</td>
+            <td>
+                <input type="radio" name="sex" checked>pria<br>
+                <input type="radio" name="sex" checked>wanita<br>
+            </td>
+            </tr>
+        <tr>
+            <td>AGAMA</td>
+            <td>
+                <select name="Agama" placeholder="Agama">
+                    <option value="Agama" selected>Agama
+                    <option value="islam">islam
+                    <option value="kristen">Kristen
+                    <option value="hindu">hindu
+                    <option value="budha">budha
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>IJAZAH</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>CV</td>
+            <td><input type="file"></td>
+        </tr>
+            <tr>
+                <td>Pas Foto</td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+        <br>
+        <table border="0" align="center">
+            <tr>
+                <td><input type="submit" value="Daftar" class="tomboldaftar"></td>
+            </tr> 
+        </table>
+    </form>
+    </body>
+</html>
